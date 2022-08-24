@@ -1,10 +1,57 @@
-header {
-  position: fixed;
-  width: 100%;
+#fotos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
-header .container {
-  flex-direction: row;
-  justify-content: space-between;
+
+#fotos {
+  margin-top: -160px;
+  padding: 40px;
+}
+
+button {
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: blueviolet;
+}
+
+button {
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 5px rgba(0, 0, 0, 0.5);
+  color: white;
+  background-color: blueviolet;
+}
+
+button:hover {
+  background-color: rgb(101, 33, 165);
+}
+
+#hero h1 {
+  color: white;
+}
+
+.container {
+  max-width: 2px;
+}
+
+header {
+  padding-bottom: 25px;
+}
+header nav {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

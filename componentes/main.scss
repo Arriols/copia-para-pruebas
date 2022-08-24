@@ -1,0 +1,34 @@
+button{
+    font-size: nth($size, 4);
+    font-weight: bold;
+    padding: nth($size, 5);
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: nth($size, 7) rgba(0,0,0,0.5);
+    color: $bg-blanco;
+    background-color: $bg-violetaAzulado;
+}
+
+button:hover{
+    background-color: $bg-otherV;
+}
+
+#hero
+    h1{
+        color: $bg-blanco;
+    }
+
+.container{
+    max-width: nth($size, 8);
+}
+
+header{
+    nav{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }padding-bottom: map-get($navegador, padding-bottom)
+}
+
+
+

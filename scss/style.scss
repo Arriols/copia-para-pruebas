@@ -1,8 +1,10 @@
-header{
-    position: fixed;
-    width: 100%;
-    .container{
-        flex-direction: row;
-        justify-content: space-between;
-    }
-}
+@import "../base/listas";
+@import "../base/variables";
+@import "../base/maps.scss";
+@import "../base/extend";
+@import "../componentes/main.scss";
+
+
+
+
+
